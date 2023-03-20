@@ -9,4 +9,5 @@ footer{
   width: 100%;
   background-color:rgba(238,137,54,1);
   bottom: 0; /*下に固定*/
+  position: absolute;
 }
