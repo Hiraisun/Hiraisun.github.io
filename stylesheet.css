@@ -1,13 +1,78 @@
-header{
-  height: 200px;
-  width: 100%;
-  background-color:rgba(32,251,255,0.8);
+body {
+	margin: 0;
 }
 
-footer{
-  height: 400px;
-  width: 100%;
-  background-color:rgba(238,137,54,1);
-  bottom: 0; /*下に固定*/
-  position: absolute;
+
+header {
+	height: 50px;
+	width: 100%;
+	background-color: rgb(17, 199, 255);
+}
+
+header ul {
+	margin: 0;
+	list-style: none;
+}
+
+header li {
+	float: left;
+	margin: 0 auto;
+}
+
+.header-content {
+	text-decoration: none;
+	color: #fff;
+	line-height: 50px;
+	width: 130px;
+	margin: 0 2px;
+	text-align: center;
+	display: block;
+	background-color: rgb(94, 218, 255);
+}
+
+.header-content:hover {
+	background: linear-gradient(rgb(57, 209, 255), rgba(0, 255, 34, 0.541));
+}
+
+/*ここから中身*/
+/*動画部分*/
+.mv-wrap {
+	position: relative;
+	height: 100%;
+}
+
+.mv-bg {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0, 30, 30, 0.3);
+	z-index: 2;
+}
+
+video {
+	display: block;
+	width: 100%;
+}
+
+.mv-over {
+	color: #fff;
+	font-size: 50px;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	margin: auto;
+	text-align: center;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: rgb(94, 218, 255);
+
 }
