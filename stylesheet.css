@@ -42,6 +42,7 @@ header li {
 }
 
 .mv-bg {
+	/*動画暗くする用れいやー*/
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -50,28 +51,42 @@ header li {
 	z-index: 2;
 }
 
+.video-wrap {
+	width: 100%;
+	max-height: 800px;
+	overflow-y: hidden;
+}
+
 video {
 	display: block;
 	width: 100%;
 }
 
-.mv-over {
-	color: #fff;
-	font-size: 50px;
-	width: 100%;
-	height: 50px;
+/*動画上の文字とかいれるとこ*/
+.mv-overbox {
+	width: 80%;
+	height: 200px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 0;
 	right: 0;
+	left: 0;
 	z-index: 3;
 	margin: auto;
-	text-align: center;
+}
+
+.mvbox-title {
+	color: #fff;
+	font-size: 50px;
+	margin: 0;
+}
+
+.mvbox-icon {
+	height: 150px;
 }
 
 footer {
-	height: 100px;
+	height: 80px;
 	width: 100%;
 	background-color: rgb(94, 218, 255);
 
