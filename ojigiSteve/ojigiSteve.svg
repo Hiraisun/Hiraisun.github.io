@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg5" sodipodi:docname="ojigiSteve.svg"
+   xml:space="preserve" inkscape:version="1.2.2 (732a01da63, 2022-12-09)" inkscape:export-filename="aa.png"
+   inkscape:export-xdpi="1200" inkscape:export-ydpi="1200" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
+      inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="false"
+      inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="true" inkscape:lockguides="true"
+      inkscape:zoom="0.7385171" inkscape:cx="220.03553" inkscape:cy="456.31983" inkscape:window-width="1920"
+      inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"
+      inkscape:current-layer="layer18">
+      <inkscape:grid type="xygrid" id="grid17" enabled="true" units="mm" spacingx="2" spacingy="2" empspacing="4"
+         dotted="false" snapvisiblegridlinesonly="false" originx="4" originy="4" />
+   </sodipodi:namedview>
+   <defs id="defs2">
+      <rect x="430.86614" y="98.267717" width="22.677165" height="15.11811" id="rect3001" />
+      <rect x="582.04724" y="98.267717" width="22.677165" height="22.677165" id="rect2318" />
+      <rect x="687.87402" y="52.913386" width="52.913386" height="22.677165" id="rect2262" />
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath489">
+         <path style="fill:#000000;stroke-width:0.264583"
+            d="m 16,0 h 16 v 16 h 16 16 v 16 h -16 -16 -16 -16 V 16 h 16 z" id="path491" clip-path="none" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath590">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 30,56 h 16 v 16 h -16 v -16" id="path592" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath250">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,86 h 16 v 16 h -16" id="path252" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath250-5">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,86 h 16 v 16 h -16" id="path252-6" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath250-5-9">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,86 h 16 v 16 h -16" id="path252-6-9" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath338">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 38,92 H 54 V 76 H 38" id="path340" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath338-7">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 38,92 H 54 V 76 H 38" id="path340-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath449">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,102 h 6 v -10 l -6,-6" id="path451" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath453">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 48.0,102 h -6 V 92 l 6,-6" id="path455" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath457">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 38,76.0 v 16 h 6.0 V 82 L 38,76.0" id="path459" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath461">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 54,92.0 h -6.0 v -10 l 6.0,-6" id="path463" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath490">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 26,82 H 42 V 98 H 26" id="path492" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath518">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 56,64.0 v 16 h 16 v -16" id="path520" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath546">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 28,80.0 H 12 v 16.0 h 16" id="path548" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath556">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 42.0,82 -6,6 h -4 l -6,-6" id="path558" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath560">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 12,96 18,94 V 82 l -6,-2" id="path562" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath564">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 56,64 h 16 L 66,70 h -4" id="path566" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32" id="path1081" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079-4">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32"
+            id="path1081-3" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1122">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 106,122 c 8,0 8,0 8,0 v -8 h 8 v 8 h 16 v 24 h -32" id="path1124" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079-1">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32"
+            id="path1081-6" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079-46">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32"
+            id="path1081-9" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1194">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,122 h 8 v 24 h -8" id="path1196" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079-5">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32"
+            id="path1081-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1232">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1234" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1232-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1234-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1232-5">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1234-6" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1232-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1234-01" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1312">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 4,4 v 4 h -4" id="path1314" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1316">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 118,122 h 4 v -8 l -4,4" id="path1318" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1320">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 -4,4 -4,-4" id="path1322" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1324">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 -6,2 v 20 l 6,2" id="path1326" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1079-9">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 106,114 v 32 h 32 v -32"
+            id="path1081-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1360">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,122 c 0,24 0,24 0,24 h 8 v -24"
+            id="path1362" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1360-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,122 c 0,24 0,24 0,24 h 8 v -24"
+            id="path1362-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1407">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 c 0,0 -2,4 -2,4 h -4 l -2,-4"
+            id="path1409" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158-8">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158-8-0">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160-1-7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158-7">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160-3" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1509">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,122 v -8 h 4 v 6" id="path1511" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1513">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,114 h -4 v 6 l 4,2" id="path1515" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1517">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,146 -2,-4 h -4 l -2,4" id="path1519" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1122-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 106,122 c 8,0 8,0 8,0 v -8 h 8 v 8 h 16 v 24 h -32" id="path1124-4" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1553">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1555" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1553-0">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 h 8 v 8 h -8" id="path1555-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1591">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 4,2 v 6 h -4" id="path1593" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1595">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 118,122 v -6 l 4,-2 v 8" id="path1597" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1649">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 160,202 v 32 h 32 v -32" id="path1651" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1649-7">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 160,202 v 32 h 32 v -32"
+            id="path1651-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1649-7-9">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 160,202 v 32 h 32 v -32"
+            id="path1651-5-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1823">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1825" width="8" height="8" x="168"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1827">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1829" width="8" height="8" x="176.0"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1649-2">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 160,202 v 32 h 32 v -32"
+            id="path1651-7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1863">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 160,210 h 8 v -8 h 8 v 8 h 16 v 24 h -32"
+            id="path1865" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1827-3">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1829-4" width="8" height="8" x="176.0"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1827-0">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1829-9" width="8" height="8" x="176.0"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1823-1">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1825-7" width="8" height="8" x="168"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1649-3">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 160,202 v 32 h 32 v -32"
+            id="path1651-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1980" width="8" height="24" x="184.0"
+            y="210" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978-1">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1980-6" width="8" height="24" x="184.0"
+            y="210" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978-1-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1980-6-9" width="8" height="24" x="184.0"
+            y="210" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2058">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,210 -2,4 h -4 l -2,-4" id="path2060" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2062">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 v -6 l -4,-2 v 8" id="path2064" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2066">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 h 4 v -8 l -4,2" id="path2068" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2082">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 160,210 h 8 v -8 h 8 v 8 h 8 l 6,2 v 20 l -6,2 h -8 v 8 h -8 v -8 h -8" id="path2084" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2086">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 176.0,210 h 4 v -6 l -4,-2" id="path2088" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2090">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 184.0,210 h -4 v -6 l 4,-2" id="path2092" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2094">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,234 -2,-4 h -4 l -2,4" id="path2096" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3056">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3058" width="48" height="32.0" x="40"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3056-5">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3058-5" width="48" height="32.0" x="40"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3056-9">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3058-8" width="48" height="32.0" x="40"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3056-8">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3058-7" width="48" height="32.0" x="40"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3137">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3139" width="16" height="8" x="64"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3141">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3143" width="16" height="8" x="48"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3145">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3147" width="8" height="24" x="40"
+            y="98" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3056-1">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3058-73" width="48" height="32.0" x="40"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3181">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 40,98 h 8 v -8 h 16 v 8 h 24 v 24 H 40"
+            id="path3183" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3141-5">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3143-3" width="16" height="8" x="48"
+            y="90" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3217">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="M 64,90 62,98 H 50 l -2,-8" id="path3219" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3227">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 40,122 h 4 v -22 l -4,-2" id="path3229" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3233">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 44,122 v -22 l 4,-2 v -8 h 16 v 8 h 24 v 24"
+            id="path3235" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3261">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3263" width="32.0" height="32.0" x="12"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3261-9">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3263-3" width="32.0" height="32.0" x="12"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3297">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3299" width="16" height="24" x="12.0"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3328">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3330" width="32.0" height="32.0" x="64"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3328-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3330-4" width="32.0" height="32.0" x="64"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3328-3">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3330-0" width="32.0" height="32.0" x="64"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3261-3">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3263-0" width="32.0" height="32.0" x="12"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3436">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3438" width="8" height="24" x="36"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3261-1">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3263-7" width="32.0" height="32.0" x="12"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3261-8">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3263-73" width="32.0" height="32.0" x="12"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3328-7">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3330-9" width="32.0" height="32.0" x="64"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3328-36">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3330-5" width="32.0" height="32.0" x="64"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3552">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3554" width="8" height="24" x="12.0"
+            y="176.0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548-0">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550-7" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544-2">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546-8" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3640">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 12,176.0 8,2.00001 v 20 l -8,2"
+            id="path3642" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3674">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3676" width="48" height="32.0" x="136"
+            y="144" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3674-5">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3676-9" width="48" height="32.0"
+            x="136" y="144" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3712">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3714" width="28" height="18" x="138"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3674-9">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3676-8" width="48" height="32.0"
+            x="136" y="144" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3748">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3750" width="16" height="18" x="168"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3712-2">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3714-5" width="28" height="18" x="138"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3784">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3786" width="6" height="18" x="138"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3748-2">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3750-6" width="16" height="18" x="168"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3820">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 184,158 -8,2 v 14 l 8,2" id="path3822" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3233-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 44,122 v -22 l 4,-2 v -8 h 16 v 8 h 24 v 24"
+            id="path3235-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3217-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="M 64,90 62,98 H 50 l -2,-8" id="path3219-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3227-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 40,122 h 4 v -22 l -4,-2" id="path3229-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3297-9">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3299-6" width="16" height="24" x="12.0"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3364-7">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3366-4" width="16" height="24" x="72"
+            y="234" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3400-8">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3402-1" width="8" height="24" x="88"
+            y="234" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3436-7">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3438-2" width="8" height="24" x="36"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544-5">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546-80" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3640-1">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 12,176.0 8,2.00001 v 20 l -8,2"
+            id="path3642-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548-5">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550-8" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548-0-9">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550-7-6" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544-2-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546-8-6" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath489-5">
+         <path style="fill:#000000;stroke-width:0.264583"
+            d="m 16,0 h 16 v 16 h 16 16 v 16 h -16 -16 -16 -16 V 16 h 16 z" id="path491-2" clip-path="none" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath590-5">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 30,56 h 16 v 16 h -16 v -16" id="path592-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath453-0">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 48.0,102 h -6 V 92 l 6,-6" id="path455-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath449-8">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,102 h 6 v -10.0 l -6,-6" id="path451-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath457-9">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 38,76.0 v 16 h 6.0 V 82 L 38,76.0" id="path459-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath461-3">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 54,92.0 h -6.0 v -10 l 6.0,-6" id="path463-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath556-2">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 42.0,82 -6,6 h -4 l -6,-6" id="path558-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath564-9">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 56,63.999998 h 16 L 66,70 h -4" id="path566-3" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath560-7">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 12,96 18,94 V 82 l -6,-2" id="path562-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1122-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 106,122 c 8,0 8,0 8,0 v -8 h 8 v 8 h 16 v 24 h -32" id="path1124-7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1513-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,114 h -4 v 6 l 4,2" id="path1515-3" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1509-0">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,122 v -8 h 4 v 6" id="path1511-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1324-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 -6,2 v 20 l 6,2" id="path1326-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1517-9">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,146 -2,-4 h -4 l -2,4" id="path1519-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1407-5">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 c 0,0 -2,4 -2,4 h -4 l -2,-4"
+            id="path1409-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1595-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 118,122 v -6 l 4,-2 v 8" id="path1597-7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1591-8">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 4,2 v 6 h -4" id="path1593-4" />
+      </clipPath>
+      <rect x="430.86615" y="98.267715" width="22.677164" height="15.11811" id="rect3001-1" />
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1827-5">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1829-0" width="8" height="8" x="176.0"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2090-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 184.0,210 h -4 v -6 l 4,-2"
+            id="path2092-6" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2086-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 176.0,210 h 4 v -6 l -4,-2"
+            id="path2088-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2066-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 h 4 v -8 l -4,2" id="path2068-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2062-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 v -6 l -4,-2 v 8" id="path2064-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2082-4">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 160,210 h 8 v -8 h 8 v 8 h 8 l 6,2 v 20 l -6,2 h -8 v 8 h -8 v -8 h -8" id="path2084-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978-3">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1980-9" width="8" height="24" x="184.0"
+            y="210" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2058-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,210 -2,4 h -4 l -2,-4"
+            id="path2060-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2094-7">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,234 -2,-4 h -4 l -2,4"
+            id="path2096-9" />
+      </clipPath>
+      <rect x="582.04724" y="98.267715" width="22.677164" height="22.677164" id="rect2318-4" />
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3712-1">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3714-6" width="28" height="18" x="138"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3748-29">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3750-4" width="16" height="18" x="168"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3820-5">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 184,158 -8,2 v 14 l 8,2"
+            id="path3822-9" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3214">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.27555" id="rect3216" width="17" height="24.5" x="35.5"
+            y="113.5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3220">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.271179" id="rect3222" width="8.3000002" height="24.299999"
+            x="88" y="233.7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550-5" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546-6" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3544-2-40">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3546-8-7" width="8" height="8" x="28.0"
+            y="168" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3548-0-8">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3550-7-2" width="8" height="8" x="80"
+            y="226" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3217-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="M 64,90 62,98 H 50 l -2,-8" id="path3219-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3227-2">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 40,122 h 4 v -22 l -4,-2" id="path3229-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3214-8">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.27555" id="rect3216-8" width="17" height="24.5" x="35.5"
+            y="113.5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3640-0">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 12,176.0 8,2.00001 v 20 l -8,2"
+            id="path3642-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3297-90">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3299-61" width="16" height="24" x="12.0"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3220-1">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.271179" id="rect3222-8" width="8.3000002"
+            height="24.299999" x="88" y="233.7" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3436-4">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect3438-0" width="8" height="24" x="36"
+            y="176" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3233-41">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 44,122 v -22 l 4,-2 v -8 h 16 v 8 h 24 v 24"
+            id="path3235-50" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath590-2">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 30,56 h 16 v 16 h -16 v -16" id="path592-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath453-8">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 48.0,102 h -6 V 92 l 6,-6" id="path455-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath449-3">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 32,102 h 6 v -10.0 l -6,-6" id="path451-3" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath457-7">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 38,76.0 v 16 h 6.0 V 82 L 38,76.0" id="path459-10" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath461-7">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 54,92.0 h -6.0 v -10 l 6.0,-6" id="path463-22" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath556-3">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 42.0,82 -6,6 h -4 l -6,-6" id="path558-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath564-8">
+         <path style="fill:#000000;stroke-width:0.264583" d="m 56,63.999998 h 16 L 66,70 h -4" id="path566-4" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath560-0">
+         <path style="fill:#000000;stroke-width:0.264583" d="M 12,96 18,94 V 82 l -6,-2" id="path562-00" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath489-3">
+         <path style="fill:#000000;stroke-width:0.264583"
+            d="m 16,0 h 16 v 16 h 16 16 v 16 h -16 -16 -16 -16 V 16 h 16 z" id="path491-28" clip-path="none" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1509-8">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,122 v -8 h 4 v 6" id="path1511-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1513-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 130,114 h -4 v 6 l 4,2" id="path1515-2" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1517-6">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,146 -2,-4 h -4 l -2,4" id="path1519-4" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1324-9">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 -6,2 v 20 l 6,2" id="path1326-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1407-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 138,122 c 0,0 -2,4 -2,4 h -4 l -2,-4"
+            id="path1409-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1595-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 118,122 v -6 l 4,-2 v 8" id="path1597-8" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1591-7">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 114,114 4,2 v 6 h -4" id="path1593-48" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1158-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 122,114 h 8 v 8 h -8" id="path1160-31" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1122-0">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 106,122 c 8,0 8,0 8,0 v -8 h 8 v 8 h 16 v 24 h -32" id="path1124-8" />
+      </clipPath>
+      <rect x="430.86615" y="98.267715" width="22.677164" height="15.11811" id="rect3001-6" />
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2090-7">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 184.0,210 h -4 v -6 l 4,-2"
+            id="path2092-67" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2086-8">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 176.0,210 h 4 v -6 l -4,-2"
+            id="path2088-5" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2066-8">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 h 4 v -8 l -4,2" id="path2068-6" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2062-1">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 172,210 v -6 l -4,-2 v 8" id="path2064-9" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978-0">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1980-5" width="8" height="24" x="184.0"
+            y="210" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2058-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,210 -2,4 h -4 l -2,-4"
+            id="path2060-1" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2094-9">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 192.0,234 -2,-4 h -4 l -2,4"
+            id="path2096-0" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1827-38">
+         <rect style="fill:#000000;stroke:none;stroke-width:0.264583" id="rect1829-2" width="8" height="8" x="176.0"
+            y="202" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2082-3">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583"
+            d="m 160,210 h 8 v -8 h 8 v 8 h 8 l 6,2 v 20 l -6,2 h -8 v 8 h -8 v -8 h -8" id="path2084-0" />
+      </clipPath>
+      <rect x="582.04724" y="98.267715" width="22.677164" height="22.677164" id="rect2318-8" />
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3748-0">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3750-3" width="16" height="18" x="168"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3820-50">
+         <path style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" d="m 184,158 -8,2 v 14 l 8,2"
+            id="path3822-98" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3712-7">
+         <rect style="fill:#000000;stroke:#ffffff;stroke-width:0.264583" id="rect3714-7" width="28" height="18" x="138"
+            y="158" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath908">
+         <path style="fill:#000000;stroke:none;stroke-width:0.264583" d="m 72,154 v -24 h 16 v 24" id="path910"
+            sodipodi:nodetypes="cccc" />
+      </clipPath>
+   </defs>
+   <g inkscape:groupmode="layer" id="layer11" inkscape:label="parts1" transform="translate(4.0,3.8999994)"
+      style="display:inline">
+      <g inkscape:groupmode="layer" id="layer18" inkscape:label="pinture">
+         <g inkscape:groupmode="layer" id="layer7" inkscape:label="body" transform="translate(20.0,-34)"
+            style="display:inline">
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-6-72" x="32"
+               y="130" clip-path="url(#clipPath3548)" transform="matrix(1.0125,0,0,1.0125,-45.099991,-90.824998)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-2-60" x="12"
+               y="136" clip-path="url(#clipPath3544)" transform="matrix(1,0,0,1.0125,-8.3e-6,-32.099997)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-2-60-3"
+               x="12" y="136" clip-path="url(#clipPath3544-2)" transform="matrix(1,0,0,1.0125,23.999991,-32.099997)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-6-72-6"
+               x="32" y="130" clip-path="url(#clipPath3548-0)"
+               transform="matrix(1.0125,0,0,1.0125,-21.099991,-90.824998)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-8-4-9" x="8"
+               y="58" clip-path="url(#clipPath3217)" transform="matrix(-1,0,0,-1.0125,116,181.325)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-8-5" x="8"
+               y="58" clip-path="url(#clipPath3227)" transform="matrix(1.025,0,0,1,26.899995,-7.8999984)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-6-9" x="-4"
+               y="10" clip-path="url(#clipPath3214)" transform="matrix(1,0,0,1.0040816,-4.6e-6,-0.4632623)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-2-7" x="12"
+               y="136" clip-path="url(#clipPath3640)" transform="matrix(1.0125,0,0,1,55.749993,-61.899983)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-2-6" x="12"
+               y="136" clip-path="url(#clipPath3297)" transform="matrix(1,0,0,1.0083333,7.9999916,-63.566665)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-6-7" x="32"
+               y="130" clip-path="url(#clipPath3220)" transform="matrix(1,0,0,1.0041153,-36.0,-120.96173)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-2-4" x="12"
+               y="136" clip-path="url(#clipPath3436)" transform="matrix(1.0125,0,0,1.0041667,23.449994,-62.733331)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-0-8" x="8"
+               y="58" clip-path="url(#clipPath3233)" transform="translate(-20.0,-7.8999974)" />
+            <g inkscape:groupmode="layer" id="layer8" inkscape:label="body 1">
+               <circle id="path3620" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="43.999996" cy="114.1"
+                  r="0.13229166" />
+               <circle id="path3622" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="526" cy="114.1"
+                  r="0.13229166" />
+               <circle id="path3624" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="47.999992" cy="114.1"
+                  r="0.13229166" />
+               <circle id="path3626" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="47.999992"
+                  cy="108.09999" r="0.13229166" />
+               <circle id="path3628" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="47.999992" cy="102.1"
+                  r="0.13229166" />
+               <circle id="path3630" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="47.999992"
+                  cy="96.099998" r="0.13229166" />
+               <circle id="path3632" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="47.999992"
+                  cy="90.099998" r="0.13229166" />
+               <circle id="path3634" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="68" cy="114.1"
+                  r="0.13229166" />
+               <circle id="path3636" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="27.999992" cy="114.1"
+                  r="0.13229166" />
+            </g>
+         </g>
+         <g inkscape:label="head" inkscape:groupmode="layer" id="layer1" style="display:inline">
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-9" x="-2" y="56" clip-path="url(#clipPath590)"
+               transform="matrix(-1,0,0,-1.0062501,69.999997,112.45)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-3" x="16" y="86" clip-path="url(#clipPath453)"
+               transform="matrix(0,1.0166667,-1,0,142,-24.599998)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-3-8" x="16" y="86" clip-path="url(#clipPath449)"
+               transform="matrix(0,-1.0166667,1,0,-78.000006,56.733333)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-0" x="6" y="76" clip-path="url(#clipPath457)"
+               transform="matrix(0,1.0166663,-1,0,132,1.3666815)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-0-2" x="6" y="76" clip-path="url(#clipPath461)"
+               transform="matrix(0,-1.0166663,1,0,-68.000007,94.899984)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-5" x="10" y="82" clip-path="url(#clipPath556)"
+               transform="matrix(-1,0,0,-1.0166667,97.999997,107.56667)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-01" x="24" y="64" clip-path="url(#clipPath564)"
+               transform="matrix(1,0,0,1.0166667,-4.6e-6,-25.066666)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-2" x="12" y="64" clip-path="url(#clipPath560)"
+               transform="matrix(1.0166667,0,0,1,59.699995,-55.899998)" />
+            <image width="128" height="128" preserveAspectRatio="none" style="image-rendering:optimizeSpeed"
+               xlink:href="skin.png" id="image226-7" x="0" y="0" clip-path="url(#clipPath489)"
+               transform="translate(7.999996,8.1000006)" />
+            <g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline">
+               <circle id="path941" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="39.999992" cy="24.100002"
+                  r="0.13229166" />
+               <circle id="path943" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="23.999994" cy="24.100002"
+                  r="0.13229166" />
+               <circle id="path945" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="23.999994" cy="40.099998"
+                  r="0.13229166" />
+               <circle id="path947" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="39.999992" cy="40.099998"
+                  r="0.13229166" />
+            </g>
+         </g>
+         <g inkscape:groupmode="layer" id="layer3" inkscape:label="right_arm" transform="translate(112,-72)"
+            style="display:inline;stroke:#ffffff">
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-7-3-9" x="26"
+               y="82" clip-path="url(#clipPath1509)" transform="rotate(90,72.06,65.99999)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-7-3" x="26"
+               y="82" clip-path="url(#clipPath1513)" transform="rotate(-90,82.08,164)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-2" x="26"
+               y="82" clip-path="url(#clipPath1517)" transform="rotate(180,80.999998,135.00001)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-84" x="26"
+               y="82" clip-path="url(#clipPath1324)" transform="matrix(1.0045455,0,0,1,-122.46771,-29.86771)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-2-8" x="26"
+               y="82" clip-path="url(#clipPath1407)" transform="matrix(-1,0,0,-1.0250002,162,209.25003)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-8-6" x="26"
+               y="82" clip-path="url(#clipPath1595)" transform="matrix(0,1.0249997,-1,0,154,-32.84997)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-8-8-6-2" x="26"
+               y="82" clip-path="url(#clipPath1591)" transform="matrix(0,-1.025,1,0,-98.00002,209.04999)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png"
+               id="image226-8-8-7" x="26" y="82" clip-path="url(#clipPath1158)"
+               transform="matrix(1,0,0,1.0125,-98.00002,0.57499995)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;stroke:#ffffff;image-rendering:optimizeSpeed" xlink:href="skin.png"
+               id="image226-8-8-8" x="26" y="82" clip-path="url(#clipPath1122)"
+               transform="translate(-90.000022,-29.900001)" />
+            <g inkscape:groupmode="layer" id="layer4" inkscape:label="Layer 4" transform="translate(-88,64)"
+               style="stroke:#ffffff">
+               <circle id="path1603" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="119.99999" cy="28.1"
+                  r="0.13229166" />
+               <circle id="path1605" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="112" cy="28.1"
+                  r="0.13229166" />
+               <circle id="path1607" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="112" cy="52.099991"
+                  r="0.13229166" />
+               <circle id="path1609" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="119.99999"
+                  cy="52.099991" r="0.13229166" /><text xml:space="preserve"
+                  transform="matrix(0.26458333,0,0,0.26458333,7.9999784,4.1000014)" id="text2999"
+                  style="white-space:pre;shape-inside:url(#rect3001);display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.245669;stroke-dasharray:none">
+                  <tspan x="430.86523" y="109.21554" id="tspan1275">
+                  </tspan>
+                  <tspan x="430.86523" y="125.08008" id="tspan1277"> </tspan>
+                  <tspan x="430.86523" y="125.19922" id="tspan1281">右<tspan dx="12" id="tspan1279">
+                     </tspan>
+                  </tspan>
+                  <tspan x="430.86523" y="140.19922" id="tspan1285">
+                     <tspan dx="0 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625"
+                        id="tspan1283"> </tspan>
+                  </tspan>
+               </text>
+            </g>
+         </g>
+         <g inkscape:groupmode="layer" id="layer5" inkscape:label="left_arm" transform="translate(24.0,-72)"
+            style="display:inline">
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-0-5" x="96"
+               y="106" clip-path="url(#clipPath2090)" transform="matrix(0,-1.025,1,0,-138,304.59998)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-0-3" x="96"
+               y="106" clip-path="url(#clipPath2086)" transform="matrix(0,1.025,-1,0,290,-64.399977)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-0-0" x="96"
+               y="106" clip-path="url(#clipPath2066)" transform="matrix(0,1.025,-1,0,290,-88.199998)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-0-0-3" x="96"
+               y="106" clip-path="url(#clipPath2062)" transform="matrix(0,-1.025,1,0,-138,264.4)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-5" x="96"
+               y="106" clip-path="url(#clipPath1978)" transform="matrix(1.0125,0,0,1,-130.29998,-117.9)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-5-6" x="96"
+               y="106" clip-path="url(#clipPath2058)" transform="matrix(-1,0,0,-1.025,264.0,299.45)"
+               inkscape:transform-center-x="37.9204" inkscape:transform-center-y="-38.137665" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-5-6-2" x="96"
+               y="106" clip-path="url(#clipPath2094)" transform="matrix(-1,0,0,-1.025,264.0,363.85)"
+               inkscape:transform-center-x="37.9204" inkscape:transform-center-y="-38.137665" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-0" x="96"
+               y="106" clip-path="url(#clipPath1827)" transform="matrix(1,0,0,1.0125,-104.0,-88.524998)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-2-3" x="96"
+               y="106" clip-path="url(#clipPath2082)" transform="translate(-96.0,-117.9)" />
+            <g inkscape:groupmode="layer" id="layer6" inkscape:label="left_arm 1" style="stroke:#ffffff">
+               <circle id="path2200" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="72" cy="92.099991"
+                  r="0.13229166" />
+               <circle id="path2202" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="80" cy="92.099991"
+                  r="0.13229166" />
+               <circle id="path2204" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="80" cy="116.09998"
+                  r="0.13229166" />
+               <circle id="path2206" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="72" cy="116.09998"
+                  r="0.13229166" /><text xml:space="preserve"
+                  transform="matrix(0.26458333,0,0,0.26458333,-88.0,68.100003)" id="text2316"
+                  style="white-space:pre;shape-inside:url(#rect2318);display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.377953;stroke-dasharray:none">
+                  <tspan x="582.04688" y="109.21554" id="tspan1287">
+                  </tspan>
+                  <tspan x="582.04688" y="125.08008" id="tspan1289"> </tspan>
+                  <tspan x="582.04688" y="132.75781" id="tspan1293">左<tspan dx="12" id="tspan1291">
+                     </tspan>
+                  </tspan>
+                  <tspan x="582.04688" y="147.75781" id="tspan1297">
+                     <tspan dx="0 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625 46.40625"
+                        id="tspan1295"> </tspan>
+                  </tspan>
+               </text>
+            </g>
+         </g>
+         <g inkscape:groupmode="layer" id="layer9" inkscape:label="inner" transform="rotate(-90,56,124)"
+            style="display:inline">
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-9-6" x="104"
+               y="112" clip-path="url(#clipPath3748)" transform="matrix(1.00625,0,0,1,-65.250003,13.99999)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-9-6-5" x="104"
+               y="112" clip-path="url(#clipPath3820)" transform="matrix(1.0125,0,0,1,-110.3,13.99999)" />
+            <image width="128" height="128" preserveAspectRatio="none"
+               style="display:inline;image-rendering:optimizeSpeed" xlink:href="skin.png" id="image226-8-9-0" x="104"
+               y="112" clip-path="url(#clipPath3712)" transform="translate(-62.100002,13.999991)" />
+            <g inkscape:groupmode="layer" id="layer10" inkscape:label="inner 1" style="stroke:#000000">
+               <circle id="path3830" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="81.900002" cy="174"
+                  r="0.13229166" />
+               <circle id="path3832" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="81.900002" cy="178"
+                  r="0.13229166" />
+               <circle id="path3834" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="81.900002" cy="182"
+                  r="0.13229166" />
+               <circle id="path3836" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="81.900002" cy="186"
+                  r="0.13229166" />
+               <circle id="path3838" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="75.900002" cy="174"
+                  r="0.13229166" />
+               <circle id="path3840" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="75.900002" cy="178"
+                  r="0.13229166" />
+               <circle id="path3842" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="75.900002" cy="182"
+                  r="0.13229166" />
+               <circle id="path3844" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="75.900002" cy="186"
+                  r="0.13229166" />
+               <circle id="path3846" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="97.900002" cy="174"
+                  r="0.13229166" />
+               <circle id="path3848" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="97.900002" cy="178"
+                  r="0.13229166" />
+               <circle id="path3850" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="97.900002" cy="182"
+                  r="0.13229166" />
+               <circle id="path3852" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="97.900002" cy="186"
+                  r="0.13229166" />
+               <circle id="path3854" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="103.89999" cy="174"
+                  r="0.13229166" />
+               <circle id="path3856" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="103.89999" cy="178"
+                  r="0.13229166" />
+               <circle id="path3858" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="103.89999" cy="182"
+                  r="0.13229166" />
+               <circle id="path3860" style="fill:#ffffff;stroke:none;stroke-width:0.264583" cx="103.89999" cy="186"
+                  r="0.13229166" />
+               <path style="fill:none;stroke:#000000;stroke-width:0.264583" d="m 103.9,190 2,18 h 12 l 2,-18"
+                  id="path3864" />
+            </g>
+         </g>
+         <image width="128" height="128" preserveAspectRatio="none" style="display:none;image-rendering:optimizeSpeed"
+            xlink:href="skin.png" id="image226-8-0-8-4" x="8" y="58" clip-path="url(#clipPath908)"
+            transform="translate(4.0416667e-7,-73.999996)" inkscape:label="back-over" />
+      </g>
+
+
+
+
+   </g>
+
+   <image width="128" height="128" preserveAspectRatio="none" style="display:none;image-rendering:optimizeSpeed"
+      xlink:href="skin.png" id="image226-8" x="90" y="64" />
+
+
+
+
+</svg>

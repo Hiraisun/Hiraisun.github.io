@@ -1,0 +1,32 @@
+#image-input {
+	margin: 10px auto;
+
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+}
+
+
+#image-preview {
+	display: block;
+	width: 40%;
+	height: auto;
+	border: 1px solid red;
+	image-rendering: pixelated;
+	align-self: flex-start;
+	margin-right: 5px;
+}
+
+#download-a {
+	display: contents;
+}
+
+#raster {
+	display: block;
+	width: 60%;
+	background-color: white;
+	border: 1px solid red;
+	align-self: flex-start;
+}
