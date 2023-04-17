@@ -1,17 +1,15 @@
 body {
 	margin: 0;
-	background-color: rgba(255, 255, 255, 0.541);
+	background-color: rgba(240, 255, 255);
 	font-family: sans-serif;
+
+
 }
 
 
 header {
-	height: 50px;
-	width: 100%;
 	background-color: rgb(17, 199, 255);
 }
-
-
 
 header ul {
 	margin: 0;
@@ -26,23 +24,64 @@ header li {
 .header-content {
 	text-decoration: none;
 	color: #ffffff;
-	line-height: 50px;
+	line-height: 45px;
 	width: 130px;
-	margin: 0 2px;
+	margin: 0 3px;
 	text-align: center;
 	display: block;
 	background-color: rgb(94, 218, 255);
+	background: linear-gradient(rgb(94, 218, 255), rgb(17, 199, 255));
 }
 
 .header-content:hover {
 	background: linear-gradient(rgb(57, 209, 255), rgba(0, 255, 34, 0.541));
 }
 
+.header-under {
+	clear: both;
+	height: 3px;
+	background-color: rgba(0, 255, 34, 0.541);
+}
+
 /*ここから中身*/
+.content {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+
+	width: auto;
+	max-width: 1020px;
+	min-width: 640px;
+	margin: 0 auto;
+}
+
+.content h1 {
+	border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+
 /*動画部分*/
 .mv-wrap {
+	/* 動画部分をおっきくwrap */
 	position: relative;
 	height: 100%;
+}
+
+.video-wrap {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+
+}
+
+video {
+	display: block;
+	width: 100%;
+	max-height: 800px;
+	object-fit: cover;
+
 }
 
 .mv-bg {
@@ -51,25 +90,17 @@ header li {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	top: 0;
+	left: 0;
 	background-color: rgba(0, 30, 30, 0.3);
 	z-index: 2;
 }
 
-.video-wrap {
-	width: 100%;
-	max-height: 800px;
-	overflow-y: hidden;
-}
-
-video {
-	display: block;
-	width: 100%;
-}
 
 /*動画上の文字とかいれるとこ*/
 .mv-overbox {
 	width: 90%;
-	height: 23vw;
+	height: 28vw;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -127,7 +158,7 @@ video {
 }
 
 footer {
-	height: 80px;
+	height: 50px;
 	width: 100%;
-	background-color: rgb(94, 218, 255);
+	background-color: rgb(17, 199, 255);
 }
