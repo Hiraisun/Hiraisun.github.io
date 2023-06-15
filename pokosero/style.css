@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+.turn {
+	font-size: 30px;
+}
+
+.current-turn {
+	width: 80px;
+}
+
+.stage {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 60px;
+	width: 404px;
+	height: 404px;
+}
+
+.square {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	cursor: pointer;
+	background-color: #008000;
+	;
+}
+
+.square:nth-child(-n + 8) {
+	border-width: 2px 2px 2px 0;
+	height: 54px;
+}
+
+.square:nth-child(8n + 1) {
+	border-width: 0 2px 2px 2px;
+	width: 54px;
+}
+
+.square:first-child {
+	border-width: 2px;
+	width: 54px;
+	height: 54px;
+}
+
+.stone {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-size: 48px;
+}
+
+.stone[data-state="0"] {
+	display: none;
+}
+
+.stone[data-state="1"] {
+	background-image: url("na-.jpg");
+	background-repeat: no-repeat;
+}
+
+.stone[data-state="2"] {
+	background-image: url("ni-.jpg");
+	background-repeat: no-repeat;
+}
+
+#square-template {
+	display: none;
+}

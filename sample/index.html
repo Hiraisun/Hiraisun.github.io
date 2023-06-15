@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>画像の拡大</title>
+</head>
+
+<body>
+  <input type="file" id="inputFile" accept="image/png">
+  <button id="resizeButton">拡大</button>
+  <img id="preview">
+  <p id="imageURL"></p>
+
+  <script>
+    document.getElementById('resizeButton').addEventListener('click', function () {
+      var file = document.getElementById('inputFile').files[0];
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+          var canvas = document.createElement('canvas');
+          canvas.width = 512;
+          canvas.height = 512;
+          var ctx = canvas.getContext('2d');
+          ctx.imageSmoothingEnabled = false;
+          ctx.drawImage(img, 0, 0, 512, 512);
+          var dataURL = canvas.toDataURL();
+          document.getElementById('preview').src = dataURL;
+          document.getElementById('imageURL').textContent = dataURL;
+        }
+        img.src = e.target.result;
+      }
+      reader.readAsDataURL(file);
+    });
+  </script>
+</body>
+
+</html>
