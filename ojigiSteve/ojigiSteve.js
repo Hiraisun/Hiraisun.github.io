@@ -29,22 +29,20 @@ inputElement.addEventListener("change", (event) => {
 
 //展開図生成処理 一連の流れ
 async function generateExploded() {
+	console.log("----展開図生成開始------------------------");
+
 	//スキンを拡大する
-	let extendedskin64 = extendSkin(skinBase64);
-	console.log("スキン拡大完了 dataURL: " + extendedskin64);
+	let extendedskin64 = await extendSkin(skinBase64);
+	console.log("スキン拡大完了 dataURL: ");
 
 	//svgをスキンで置換する (完了まで待つawait)
 	let svgXml = await replaceSVG(extendedskin64);
-	console.log("スキン置換完了 xml:" + svgXml);
+	console.log("スキン置換完了 xml:");
 
 	//ラスタライズ
-	let rasterized64 = rasterize(svgXml);
-	console.log("ラスタライズ完了 dataURL:" + rasterized64);
+	let rasterized64 = await rasterize(svgXml);
+	console.log("ラスタライズ完了 dataURL:");
 
-	document.getElementById("raster").src = rasterized64;
-	document.getElementById("download-a").href = rasterized64;
-
-	console.log("てんかいず");
 }
 
 //blobをbase64にするやつ
@@ -58,11 +56,29 @@ skinReader.onload = function () {
 	generateExploded();
 };
 
+/// 1.Promiseを使った同期読み込み
+async function loadImage(imgUrl) {
+	let img = null;
+	let promise = new Promise(function (resolve) {
+		img = new Image();
+		/// 読み込み開始...
+		img.src = imgUrl;
+		img.onload = function () {
+			/// 読み込み完了後...
+			console.log('image読み込み完了');
+			resolve();
+		}
+	});
+	/// 読込完了まで待つ
+	await promise;
+	return img;
+}
+
 
 //スキン拡大処理
-function extendSkin(inBase64) {
-	let skinImg = new Image();
-	skinImg.src = inBase64;
+async function extendSkin(inBase64) {
+	//画像読み込み、完了まで待つ
+	let skinImg = await loadImage(inBase64);
 
 	//キャンバス生成、サイズ指定
 	let canvas = document.createElement('canvas');
@@ -77,11 +93,16 @@ function extendSkin(inBase64) {
 	let extendedSkin64 = canvas.toDataURL();//base64として記録
 
 	canvas.remove()	//使ったcanvas削除
+
+	console.log("拡大関数");
 	return extendedSkin64;
+
+
+
 }
 
 //SVGの置換処理 置換後xmlを返す
-function replaceSVG(inBase64) {
+async function replaceSVG(inBase64) {
 	return fetch(svgUrl)	//svgとってくる(テキスト形式)
 		.then(response => response.text())
 		.then(str => {
@@ -99,15 +120,17 @@ function replaceSVG(inBase64) {
 			});
 
 			let xml = new XMLSerializer().serializeToString(svg);
+
+			console.log("置換関数");
 			return xml;
 		});
 }
 
+
 //ラスタライズ処理 dataURL返す
-function rasterize(inXml) {
+async function rasterize(inXml) {
 	//canvasに描画する画像(置換後xmlから)
-	let img = new Image();
-	img.src = 'data:image/svg+xml;base64,' + utf8_to_b64(inXml);
+	let img = await loadImage('data:image/svg+xml;base64,' + utf8_to_b64(inXml));
 
 	//canvasを使ってラスタライズ
 	let canvas = document.createElement('canvas');
@@ -117,12 +140,20 @@ function rasterize(inXml) {
 	ctx.imageSmoothingEnabled = false;
 	ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
-	//dataURL(base64)にして返す
+	//dataURL(base64)にして出力
 	let dataURL = canvas.toDataURL();
+
+	document.getElementById("raster").src = dataURL;
+	document.getElementById("download-a").href = dataURL;
+
+	console.log("ラスタライズ関数");
 	return dataURL;
 }
+
 
 
 function utf8_to_b64(str) {//文字コード変更してbase64するやつ
 	return window.btoa(unescape(encodeURIComponent(str)));
 }
+
+
