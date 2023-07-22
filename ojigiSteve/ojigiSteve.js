@@ -45,6 +45,9 @@ function rasterizeSteve() {
 			let canvas = document.createElement('canvas');
 			canvas.width = expandRatio;
 			canvas.height = expandRatio;
+
+			//CanvasRenderingContext2D っていうオブジェクトを生成(canvas2d)
+			//2Dグラフィックの描画とかできるっぽい
 			let ctx = canvas.getContext('2d');
 			ctx.imageSmoothingEnabled = false;//補完しない
 			ctx.drawImage(img, 0, 0, expandRatio, expandRatio);
