@@ -54,16 +54,16 @@ function rasterizeSteve() {
 			let extendBase64 = canvas.toDataURL();//base64として記録
 
 			//svgのimageの置換----------------------------------------------
-			const svgUrl = '/ojigiSteve/ojigiSteve.svg';
+			const svgUrl = './ojigiSteve.svg';
 			fetch(svgUrl)
 				.then(response => response.text())
 				.then(str => {
 					//svgのテキストデータ、全てのimageを取得
 					let parser = new DOMParser();
 					let svg = parser.parseFromString(str, 'image/svg+xml').documentElement;
-					let images = svg.querySelectorAll('image');
+					let images = svg.querySelectorAll('image');	//全image取得
 
-					//全てのimageを置換
+					//全てのimageに対して置換
 					for (let i = 0; i < images.length; i++) {
 						images[i].setAttribute('href', extendBase64);
 					}
