@@ -54,7 +54,7 @@ function rasterizeSteve() {
 			let extendBase64 = canvas.toDataURL();//base64として記録
 
 			//svgのimageの置換----------------------------------------------
-			const svgUrl = './ojigiSteve.svg';
+			const svgUrl = '/ojigiSteve/ojigiSteve.svg';
 			fetch(svgUrl)
 				.then(response => response.text())
 				.then(str => {
