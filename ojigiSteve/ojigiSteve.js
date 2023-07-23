@@ -13,8 +13,6 @@ const imageElement = document.getElementById("image-preview");//選択中スキ�
 let inputSkin;//選択中のスキン画像(fileオブジェクト)
 let skinBase64;//選択中スキンのbase64(データURL)
 
-
-
 //最初にデフォルトスキンいれとく
 fetch('/ojigiSteve/skin.png')
 	.then(response => response.blob())
@@ -26,6 +24,18 @@ fetch('/ojigiSteve/skin.png')
 inputElement.addEventListener("change", (event) => {
 	skinReader.readAsDataURL(event.target.files[0]);
 });
+
+//blobをbase64にするやつ
+let skinReader = new FileReader();	//スキンpng(blob)の変換
+//読み込み時に呼び出される。
+skinReader.onload = function () {
+	skinBase64 = skinReader.result; // data url(base64)を格納
+	imageElement.src = skinBase64;//スキンプレビュー更新
+	console.log("スキン読み込み完了 base64: " + skinBase64);
+	//展開図生成処理
+	generateExploded();
+};
+
 
 //展開図生成処理 一連の流れ
 async function generateExploded() {
@@ -44,17 +54,6 @@ async function generateExploded() {
 	console.log("ラスタライズ完了 dataURL:");
 
 }
-
-//blobをbase64にするやつ
-let skinReader = new FileReader();	//スキンpng(blob)の変換
-//読み込み時に呼び出される。
-skinReader.onload = function () {
-	skinBase64 = skinReader.result; // data url(base64)を格納
-	imageElement.src = skinBase64;//スキンプレビュー更新
-	console.log("スキン読み込み完了 base64: " + skinBase64);
-	//展開図生成処理
-	generateExploded();
-};
 
 /// 1.Promiseを使った同期読み込み
 async function loadImage(imgUrl) {
@@ -137,6 +136,12 @@ async function rasterize(inXml) {
 	let ctx = canvas.getContext('2d');
 	canvas.width = img.width * rasterRetio;
 	canvas.height = img.height * rasterRetio;
+
+	//背景塗りつぶし
+	ctx.beginPath();
+	ctx.fillStyle = 'rgb( 255,255,255)';
+	ctx.fillRect(0, 0, canvas.width, canvas.height);
+
 	ctx.imageSmoothingEnabled = false;
 	ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
