@@ -24,8 +24,6 @@ function drawCircle() {
 	canvasElement.height = (r + 1) * grid + margin * 2;
 	const ctx = canvasElement.getContext('2d');
 
-	ctx.fillStyle = 'white';
-	ctx.fillRect(0, 0, 200, 200)
 
 	// 方眼描く
 	ctx.strokeStyle = 'black';

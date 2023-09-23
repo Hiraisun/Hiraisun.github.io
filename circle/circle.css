@@ -1,3 +1,11 @@
+.canvas-wrap {
+	white-space: nowrap;
+	overflow: auto;
+}
+
 #out-canvas {
+	display: block;
 	background-color: white;
+	margin: auto;
+
 }
