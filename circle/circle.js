@@ -34,7 +34,7 @@ function drawCircle() {
 
 	console.log();
 
-	ctx.fillStyle = 'orange';
+	ctx.fillStyle = 'rgb(0, 255, 34,0.7)';
 	for (let x = 0; x < r + 1; x++) {
 		for (let y = 0; y < r + 1; y++) {
 			if ((x ** 2) + (y ** 2) <= (r + 0.5) ** 2) {

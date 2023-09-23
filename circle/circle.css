@@ -1,11 +1,17 @@
+.input-p {
+	text-align: center;
+}
+
 .canvas-wrap {
 	white-space: nowrap;
 	overflow: auto;
+	margin-bottom: 30px;
 }
 
 #out-canvas {
 	display: block;
 	background-color: white;
 	margin: auto;
-
+	border: solid;
+	border-color: rgb(17, 199, 255);
 }
