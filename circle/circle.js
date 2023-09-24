@@ -8,35 +8,32 @@ const canvasElement = document.getElementById("out-canvas"); //キャンバス
 const margin = 30;	//余白
 const grid = 20;	//間隔
 
-let r = parseInt(inputElement.value);
+let r = parseFloat(inputElement.value);
 drawCircle();
 
 
 //半径変更時
 inputElement.addEventListener("change", (event) => {
-	r = parseInt(inputElement.value);
+	r = parseFloat(inputElement.value);
 	drawCircle();
 });
 
 
 function drawCircle() {
-	canvasElement.width = (r + 1) * grid + margin * 2;
-	canvasElement.height = (r + 1) * grid + margin * 2;
+	const ceilr = Math.ceil(r);	//切り上げて+1した半径。グリッド本数等に
+
+	canvasElement.width = ceilr * grid + margin * 2;
+	canvasElement.height = ceilr * grid + margin * 2;
 	const ctx = canvasElement.getContext('2d');
 
 
-	// 方眼描く
-	ctx.strokeStyle = 'black';
-	ctx.lineWidth = 1;
 
-	// パスの開始
-	ctx.beginPath();
 
-	console.log();
 
+	//円内の色付け
 	ctx.fillStyle = 'rgb(0, 255, 34,0.7)';
-	for (let x = 0; x < r + 1; x++) {
-		for (let y = 0; y < r + 1; y++) {
+	for (let x = 0; x < ceilr; x++) {
+		for (let y = 0; y < ceilr; y++) {
 			if ((x ** 2) + (y ** 2) <= (r + 0.5) ** 2) {
 				ctx.fillRect(x * grid + margin, y * grid + margin, grid, grid);
 			}
@@ -44,20 +41,37 @@ function drawCircle() {
 		}
 	}
 
+	ctx.fillStyle = 'orange';
+	ctx.fillRect(margin, margin, grid, grid)
 
-	//方眼
-	for (let index = 0; index <= r + 1; index++) {
-		const x = index * grid + margin
+	// 方眼描く
+	ctx.strokeStyle = 'black';
+	ctx.lineWidth = 1;
+
+	const endpos = grid * ceilr + margin; //線の終点座標
+
+	//方眼-縦線横線同時にループ。番号も同時に
+	for (let index = 0; index <= ceilr; index++) {
+		const pos = index * grid + margin //線の座標
+
+		ctx.beginPath();
+
+		//8本ごとに太線
+		if (index % 8 == 0) {
+			ctx.lineWidth = 2;
+		} else {
+			ctx.lineWidth = 0.5;
+		}
+
 		//縦線
-		ctx.moveTo(x, 30);//線開始
-		ctx.lineTo(x, grid * (r + 1) + margin);//線終了
+		ctx.moveTo(pos, margin);//線開始
+		ctx.lineTo(pos, endpos);//線終了
 		//横線
-		ctx.moveTo(30, x);//線開始
-		ctx.lineTo(grid * (r + 1) + margin, x);//線終了
-	}
+		ctx.moveTo(margin, pos);//線開始
+		ctx.lineTo(endpos, pos);//線終了
 
-	// 描画
-	ctx.stroke();
+		ctx.stroke();
+	}
 
 
 }
