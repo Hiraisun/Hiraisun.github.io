@@ -22,9 +22,11 @@ var render = Render.create({
 	options: {
 		width: 800,
 		height: 600,
+		wireframes: false,
 	}
 });
 
+//マウスオブジェクト
 var mouse = Mouse.create(render.canvas),
 	mouseConstraint = MouseConstraint.create(engine, {
 		mouse: mouse,
@@ -39,12 +41,16 @@ var mouse = Mouse.create(render.canvas),
 		}
 	});
 
+
 //bodyいろいろ生成
 var boxA = Bodies.rectangle(400, 200, 80, 80);
-var boxB = Bodies.rectangle(450, 50, 80, 80, {
+var boxB = Bodies.rectangle(450, 50, 120, 120, {
 	render: {
-		strokeStyle: "#ffffff",
-		sprite: { texture: './twitterQR.png' }
+		sprite: {
+			texture: '../images/twitterQR.png',
+			xScale: 0.5,
+			yScale: 0.5
+		}
 	}
 });
 var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
