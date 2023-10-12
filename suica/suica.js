@@ -34,15 +34,22 @@ var mouse = Mouse.create(render.canvas),
 				visible: false
 			}
 		},
-		collisionFilter: { // 一意のフィルタ
+		collisionFilter: { //オブジェクトに触れられないようにフィルタ
 			mask: 0xFFFFCC,
 		}
 	});
 
 //bodyいろいろ生成
 var boxA = Bodies.rectangle(400, 200, 80, 80);
-var boxB = Bodies.rectangle(450, 50, 80, 80);
+var boxB = Bodies.rectangle(450, 50, 80, 80, {
+	render: {
+		strokeStyle: "#ffffff",
+		sprite: { texture: './twitterQR.png' }
+	}
+});
 var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
+
+console.log(boxB.render.sprite);
 
 
 //ワールドに追加
@@ -62,9 +69,13 @@ Runner.run(runner, engine);
 Events.on(mouseConstraint, 'mousedown', function (event) {
 
 	//ボール生成
-	const ball = Bodies.circle(event.mouse.position.x, event.mouse.position.y, 20, { restitution: 0.5 });
+	const ball = Bodies.circle(event.mouse.position.x, event.mouse.position.y, 20, {
+		restitution: 0.5,
+	});
 	Composite.add(engine.world, ball);
 });
+
+
 
 
 
