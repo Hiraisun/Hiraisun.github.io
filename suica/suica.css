@@ -1,0 +1,13 @@
+.canvas-wrapaaaaaaaaa {
+	white-space: nowrap;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+
+#canvasaaaaaaaa {
+	display: block;
+	background-color: white;
+	margin: auto;
+	border: solid;
+	border-color: rgb(17, 199, 255);
+}
