@@ -5,6 +5,7 @@ const wakuWidth = 400;
 
 const canvasElement = document.getElementById("gameCanvas"); //描画位置
 
+
 // module aliases
 var Engine = Matter.Engine,
 	World = Matter.World,
@@ -14,7 +15,9 @@ var Engine = Matter.Engine,
 	Composite = Matter.Composite,
 	Events = Matter.Events,
 	MouseConstraint = Matter.MouseConstraint,
-	Mouse = Matter.Mouse;
+	Mouse = Matter.Mouse,
+	Common = Matter.Common,
+	Body = Matter.Body;
 
 // create an engine
 var engine = Engine.create();
@@ -42,7 +45,7 @@ var mouse = Mouse.create(render.canvas),
 			}
 		},
 		collisionFilter: { //オブジェクトに触れられないようにフィルタ
-			mask: 0xFFFFCC,
+			mask: 0xFFFFEE,
 		}
 	});
 
@@ -50,7 +53,8 @@ var mouse = Mouse.create(render.canvas),
 var bodys = [];
 
 //bodyいろいろ生成
-bodys.push(Bodies.rectangle(100, 100, 120, 120, {
+bodys.push(Bodies.rectangle(0, 0, 120, 120, {
+	position: { x: 100, y: 400 },
 	render: {
 		sprite: {
 			texture: '../images/twitterQR.png',
@@ -60,23 +64,19 @@ bodys.push(Bodies.rectangle(100, 100, 120, 120, {
 	}
 }));
 
+
 //ワールドに追加
 Composite.add(engine.world, bodys);
 
 //枠の作成
 var wakuBodys = [];
-wakuBodys.push(Bodies.rectangle(0, wakuHeight / 2, 40, wakuHeight, {
+wakuParam = {
 	render: { fillStyle: 'rgb(255, 221, 126)', },
 	isStatic: true
-}));
-wakuBodys.push(Bodies.rectangle(wakuWidth / 2, wakuHeight, wakuWidth, 40, {
-	render: { fillStyle: 'rgb(255, 221, 126)', },
-	isStatic: true
-}));
-wakuBodys.push(Bodies.rectangle(wakuWidth, wakuHeight / 2, 40, wakuHeight, {
-	render: { fillStyle: 'rgb(255, 221, 126)', },
-	isStatic: true
-}));
+}
+wakuBodys.push(Bodies.rectangle(0, wakuHeight / 2, 40, wakuHeight, wakuParam));
+wakuBodys.push(Bodies.rectangle(wakuWidth / 2, wakuHeight, wakuWidth, 40, wakuParam));
+wakuBodys.push(Bodies.rectangle(wakuWidth, wakuHeight / 2, 40, wakuHeight, wakuParam));
 Composite.add(engine.world, wakuBodys);	//ワールドに追加
 
 // run the renderer
@@ -87,111 +87,91 @@ var runner = Runner.create();
 Runner.run(runner, engine);
 
 
-//マウスクリック時
-Events.on(mouseConstraint, 'mousedown', function (event) {
 
-	//ボール生成
-	const ball = Bodies.circle(event.mouse.position.x, event.mouse.position.y, 20, {
+//カード生成関数
+function createCard(num) {
+	const cardOpt = {
 		restitution: 0.5,
-	});
-	Composite.add(engine.world, ball);	//追加
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//パラメータ------------------
-const margin = 30;	//余白
-const grid = 20;	//間隔
-
-
-
-//半径変更時
-inputElement.addEventListener("change", (event) => {
-	r = parseFloat(inputElement.value);
-	drawCircle();
-});
-
-
-function drawCircle() {
-	const ceilr = Math.ceil(r);	//切り上げて+1した半径。グリッド本数等に
-
-	canvasElement.width = ceilr * grid + margin * 2;
-	canvasElement.height = ceilr * grid + margin * 2;
-	const ctx = canvasElement.getContext('2d');
-
-
-
-
-
-	//円内の色付け
-	ctx.fillStyle = 'rgb(0, 255, 34,0.7)';
-	for (let x = 0; x < ceilr; x++) {
-		for (let y = 0; y < ceilr; y++) {
-			if ((x ** 2) + (y ** 2) <= (r + 0.5) ** 2) {
-				ctx.fillRect(x * grid + margin, y * grid + margin, grid, grid);
-			}
-			//console.log(x.toString() + ',' + y.toString());
-		}
+		isStatic: true,
+		collisionFilter: { //オブジェクトに触れられないようにフィルタ
+			mask: 0xFFFFCC,
+		},
+		label: num
+	};
+	switch (num) {
+		case 0:
+			newBody = Bodies.circle(100, 100, 20, cardOpt);
+			return newBody;
+		case 1:
+			newBody = Bodies.circle(100, 100, 30, cardOpt);
+			return newBody;
+		case 2:
+			newBody = Bodies.circle(100, 100, 40, cardOpt);
+			return newBody;
+		case 3:
+			newBody = Bodies.circle(100, 100, 50, cardOpt);
+			newBody.label = "max";
+			return newBody;
+		default:
+			break;
 	}
-
-	ctx.fillStyle = 'orange';
-	ctx.fillRect(margin, margin, grid, grid)
-
-	// 方眼描く
-	ctx.strokeStyle = 'black';
-	ctx.lineWidth = 1;
-
-	const endpos = grid * ceilr + margin; //線の終点座標
-
-	//方眼-縦線横線同時にループ。番号も同時に
-	for (let index = 0; index <= ceilr; index++) {
-		const pos = index * grid + margin //線の座標
-
-		ctx.beginPath();
-
-		//8本ごとに太線
-		if (index % 8 == 0) {
-			ctx.lineWidth = 2;
-		} else {
-			ctx.lineWidth = 0.5;
-		}
-
-		//縦線
-		ctx.moveTo(pos, margin);//線開始
-		ctx.lineTo(pos, endpos);//線終了
-		//横線
-		ctx.moveTo(margin, pos);//線開始
-		ctx.lineTo(endpos, pos);//線終了
-
-		ctx.stroke();
-	}
-
-
 }
 
+
+//開始時に持つカード
+var holdingBody = createCard(0);	//id0を生成
+Body.setPosition(holdingBody, { x: 100, y: 50 });
+//ボール生成
+Composite.add(engine.world, holdingBody);
+
+
+//マウスクリック時
+Events.on(mouseConstraint, 'mousedown', function (event) {
+	//持ってるやつを実体化
+	Body.setStatic(holdingBody, false);
+	holdingBody.collisionFilter.mask = 1;
+
+	//次のカード生成
+	randnum = Math.floor(Math.random() * 2);	//乱数
+	holdingBody = createCard(randnum);	//出た目のやつ生成
+	Body.setPosition(holdingBody, { x: mouse.position.x, y: 50 });
+	//ボール生成
+	Composite.add(engine.world, holdingBody);	//追加
+});
+
+//tick処理
+Events.on(runner, "beforeTick", function (event) {
+	//var holdMatt = Matter.Composite.get(engine.world, holdingID, "body");
+
+	//マウス追従
+	Body.setPosition(holdingBody, { x: mouse.position.x, y: 50 });
+});
+
+//衝突イベント
+Events.on(engine, "collisionStart", function (event) {
+	var pairs = event.pairs;
+	pairs.forEach(pair => {
+
+		if (pair.bodyA.label >= 0) {	//数字ラベル(カード)で
+			if (pair.bodyA.label == pair.bodyB.label) {	//ラベル一致
+				console.log(pair);
+				//合体！
+				//中間に生成
+				newBody = createCard(pair.bodyA.label + 1);	//次のidのやつ
+				newx = (pair.bodyA.position.x + pair.bodyB.position.x) / 2;
+				newy = (pair.bodyA.position.y + pair.bodyB.position.y) / 2;
+				Body.setPosition(newBody, { x: newx, y: newy });
+				Body.setStatic(newBody, false);
+				newBody.collisionFilter.mask = 1;
+				//ボール生成
+				Composite.add(engine.world, newBody);	//追加
+
+				Composite.remove(engine.world, pair.bodyA);
+				Composite.remove(engine.world, pair.bodyB);
+			}
+		}
+	});
+});
 
 
 
