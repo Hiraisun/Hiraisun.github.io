@@ -1,4 +1,8 @@
 
+//パラメータ類---------------
+const wakuHeight = 600;
+const wakuWidth = 400;
+
 const canvasElement = document.getElementById("gameCanvas"); //描画位置
 
 // module aliases
@@ -20,9 +24,10 @@ var render = Render.create({
 	element: canvasElement,
 	engine: engine,
 	options: {
-		width: 800,
-		height: 600,
+		width: wakuWidth,
+		height: wakuHeight,
 		wireframes: false,
+		background: "rgba(255,255,255,0)",
 	}
 });
 
@@ -42,9 +47,10 @@ var mouse = Mouse.create(render.canvas),
 	});
 
 
+var bodys = [];
+
 //bodyいろいろ生成
-var boxA = Bodies.rectangle(400, 200, 80, 80);
-var boxB = Bodies.rectangle(450, 50, 120, 120, {
+bodys.push(Bodies.rectangle(100, 100, 120, 120, {
 	render: {
 		sprite: {
 			texture: '../images/twitterQR.png',
@@ -52,21 +58,31 @@ var boxB = Bodies.rectangle(450, 50, 120, 120, {
 			yScale: 0.5
 		}
 	}
-});
-var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
-
-console.log(boxB.render.sprite);
-
+}));
 
 //ワールドに追加
-Composite.add(engine.world, [mouseConstraint, boxA, boxB, ground]);
+Composite.add(engine.world, bodys);
+
+//枠の作成
+var wakuBodys = [];
+wakuBodys.push(Bodies.rectangle(0, wakuHeight / 2, 40, wakuHeight, {
+	render: { fillStyle: 'rgb(255, 221, 126)', },
+	isStatic: true
+}));
+wakuBodys.push(Bodies.rectangle(wakuWidth / 2, wakuHeight, wakuWidth, 40, {
+	render: { fillStyle: 'rgb(255, 221, 126)', },
+	isStatic: true
+}));
+wakuBodys.push(Bodies.rectangle(wakuWidth, wakuHeight / 2, 40, wakuHeight, {
+	render: { fillStyle: 'rgb(255, 221, 126)', },
+	isStatic: true
+}));
+Composite.add(engine.world, wakuBodys);	//ワールドに追加
 
 // run the renderer
 Render.run(render);
-
 // create runner
 var runner = Runner.create();
-
 // run the engine
 Runner.run(runner, engine);
 
@@ -78,7 +94,7 @@ Events.on(mouseConstraint, 'mousedown', function (event) {
 	const ball = Bodies.circle(event.mouse.position.x, event.mouse.position.y, 20, {
 		restitution: 0.5,
 	});
-	Composite.add(engine.world, ball);
+	Composite.add(engine.world, ball);	//追加
 });
 
 
