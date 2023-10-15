@@ -238,9 +238,14 @@ Events.on(engine, "collisionStart", function (event) {
 				newx = (pair.bodyA.position.x + pair.bodyB.position.x) / 2;
 				newy = (pair.bodyA.position.y + pair.bodyB.position.y) / 2;
 				Body.setPosition(newBody, { x: newx, y: newy });
+				//向きをランダムに
+				var randnum = Math.random();	//乱数
+				console.log(randnum);
+				Matter.Body.rotate(newBody, Math.PI * 2 * randnum)
+
 				Body.setStatic(newBody, false);
 				newBody.collisionFilter.mask = 1;
-				//ボール生成
+
 				Composite.add(engine.world, newBody);	//追加
 
 				Composite.remove(engine.world, pair.bodyA);
