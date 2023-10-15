@@ -3,12 +3,13 @@
 const wakuHeight = 500;
 const wakuWidth = 400;
 
-const allHeight = 700
+const allHeight = 650	//枠の終わりまで全体
 
-const wakuStart = allHeight - wakuHeight
-const wakuCenter = wakuStart + wakuHeight / 2
+const wakuStart = allHeight - wakuHeight		//枠が始まるY座標
+const wakuCenter = wakuStart + wakuHeight / 2	//枠の中心Y座標
 
 const canvasElement = document.getElementById("gameCanvas"); //描画位置
+const scoreSpan = document.getElementById("scoreSpan");	//スコア表示位置
 
 // module aliases
 var Engine = Matter.Engine,
@@ -219,6 +220,10 @@ Events.on(runner, "beforeTick", function (event) {
 
 });
 
+var score = 0;
+//合成前id→合成時のスコア
+const idToScore = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55];
+
 //衝突イベント
 Events.on(engine, "collisionStart", function (event) {
 	var pairs = event.pairs;
@@ -240,6 +245,10 @@ Events.on(engine, "collisionStart", function (event) {
 
 				Composite.remove(engine.world, pair.bodyA);
 				Composite.remove(engine.world, pair.bodyB);
+
+				//スコア加算
+				score += idToScore[pair.bodyA.label];
+				scoreSpan.innerHTML = score;
 			}
 		}
 	});
