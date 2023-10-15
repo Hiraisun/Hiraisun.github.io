@@ -4,10 +4,31 @@
 	margin-bottom: 30px;
 }
 
-#canvasaaaaaaaa {
-	display: block;
-	background-color: white;
+.container {
+	display: flex;
+	background-color: rgb(46, 107, 126);
+}
+
+.scoreP {
+	color: white;
+	font-style: italic;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 40px;
+}
+
+.scoreP span {
+	font-size: 60px;
+}
+
+.container img {
+	height: 600px;
+	margin-top: 20px;
+}
+
+
+#gameCanvas {
+	width: 400px;
 	margin: auto;
-	border: solid;
-	border-color: rgb(17, 199, 255);
 }
