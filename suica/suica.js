@@ -15,7 +15,8 @@ const wakuCenter = wakuStart + wakuHeight / 2	//枠の中心Y座標
 const canvasElement = document.getElementById("gameCanvas"); //描画位置
 const scoreSpan = document.getElementById("scoreSpan");	//スコア表示位置
 const gameoverP = document.getElementById("gameover");	//スコア表示位置
-const music = new Audio('beep.mp3');
+const dropSound = new Audio('/suica/sound/drop.mp3');
+const margeSound = new Audio('/suica/sound/marge.mp3');
 
 // module aliases
 var Engine = Matter.Engine,
@@ -217,8 +218,11 @@ canvasElement.addEventListener('click', function () {
 		var randnum = Math.floor(Math.random() * 5);	//乱数
 		holdingObj = createCard(randnum);	//出た目のやつ生成
 		Body.setPosition(holdingObj, { x: mouse.position.x, y: spawnY });
-		//ボール生成
+
 		Composite.add(engine.world, holdingObj);	//追加
+
+		dropSound.currentTime = 0;
+		dropSound.play();
 	}
 });
 
@@ -275,6 +279,9 @@ Events.on(engine, "collisionStart", function (event) {
 				//スコア加算
 				score += idToScore[pair.bodyA.label];
 				scoreSpan.innerHTML = score;
+
+				margeSound.currentTime = 0;
+				margeSound.play();
 			}
 		}
 	});
