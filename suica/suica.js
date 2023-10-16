@@ -1,15 +1,21 @@
 
 //パラメータ類---------------
-const wakuHeight = 500;
+const wakuHeight = 450;
 const wakuWidth = 400;
 
-const allHeight = 650	//枠の終わりまで全体
+const allHeight = 600	//枠の終わりまで全体
+
+const spawnY = 100;	//カード出現高度
+
+const dropCD = 500;	//落とすクールダウン ミリ秒
 
 const wakuStart = allHeight - wakuHeight		//枠が始まるY座標
 const wakuCenter = wakuStart + wakuHeight / 2	//枠の中心Y座標
 
 const canvasElement = document.getElementById("gameCanvas"); //描画位置
 const scoreSpan = document.getElementById("scoreSpan");	//スコア表示位置
+const gameoverP = document.getElementById("gameover");	//スコア表示位置
+const music = new Audio('beep.mp3');
 
 // module aliases
 var Engine = Matter.Engine,
@@ -34,7 +40,7 @@ var render = Render.create({
 	engine: engine,
 	options: {
 		width: wakuWidth,
-		height: allHeight + 50,
+		height: allHeight,
 		wireframes: false,
 		background: "rgba(255,255,255,0)",
 	}
@@ -68,6 +74,15 @@ wakuParam = {
 wakuBodys.push(Bodies.rectangle(0, wakuCenter, 40, wakuHeight, wakuParam));
 wakuBodys.push(Bodies.rectangle(wakuWidth / 2, allHeight, wakuWidth, 20, wakuParam));
 wakuBodys.push(Bodies.rectangle(wakuWidth, wakuCenter, 40, wakuHeight, wakuParam));
+wakuBodys.push(Bodies.rectangle(wakuWidth / 2, wakuStart - 3, wakuWidth, 6, {
+	isSensor: true,
+	isStatic: true,
+	label: "outSensor",
+	render: {
+		fillStyle: 'rgb(58, 131, 153)'
+	}
+}));
+
 Composite.add(engine.world, wakuBodys);	//ワールドに追加
 
 // run the renderer
@@ -187,18 +202,24 @@ var holdingObj = createCard(0);	//id0を生成
 //カード
 Composite.add(engine.world, holdingObj);
 
+var nextDropTime = 0;
 //クリック
 canvasElement.addEventListener('click', function () {
-	//持ってるやつを実体化
-	Body.setStatic(holdingObj, false);
-	holdingObj.collisionFilter.mask = 1;
+	//CDチェック
+	if (nextDropTime < engine.timing.timestamp) {
+		nextDropTime = engine.timing.timestamp + dropCD;
 
-	//次のカード生成
-	var randnum = Math.floor(Math.random() * 5);	//乱数
-	holdingObj = createCard(randnum);	//出た目のやつ生成
-	Body.setPosition(holdingObj, { x: mouse.position.x, y: 50 });
-	//ボール生成
-	Composite.add(engine.world, holdingObj);	//追加
+		//持ってるやつを実体化
+		Body.setStatic(holdingObj, false);
+		holdingObj.collisionFilter.mask = 1;
+
+		//次のカード生成
+		var randnum = Math.floor(Math.random() * 5);	//乱数
+		holdingObj = createCard(randnum);	//出た目のやつ生成
+		Body.setPosition(holdingObj, { x: mouse.position.x, y: spawnY });
+		//ボール生成
+		Composite.add(engine.world, holdingObj);	//追加
+	}
 });
 
 //ホイール
@@ -216,7 +237,8 @@ Events.on(runner, "beforeTick", function (event) {
 	//var holdMatt = Matter.Composite.get(engine.world, holdingID, "body");
 
 	//マウス追従
-	Body.setPosition(holdingObj, { x: mouse.position.x, y: 100 });
+	const holdX = Math.min(Math.max(mouse.position.x, 65), wakuWidth - 65);
+	Body.setPosition(holdingObj, { x: holdX, y: spawnY });
 
 });
 
@@ -240,7 +262,6 @@ Events.on(engine, "collisionStart", function (event) {
 				Body.setPosition(newBody, { x: newx, y: newy });
 				//向きをランダムに
 				var randnum = Math.random();	//乱数
-				console.log(randnum);
 				Matter.Body.rotate(newBody, Math.PI * 2 * randnum)
 
 				Body.setStatic(newBody, false);
@@ -257,6 +278,23 @@ Events.on(engine, "collisionStart", function (event) {
 			}
 		}
 	});
+});
+
+
+//collisionActive ずっと衝突検知
+Events.on(engine, "collisionActive", function (event) {
+	var pairs = event.pairs;
+
+	if (nextDropTime < engine.timing.timestamp) {//CDおわってる
+		pairs.forEach(pair => {
+
+			if (pair.bodyA.label == 'outSensor') {	//センサーに触れてる
+				console.log(runner);
+				runner.enabled = false;
+				gameoverP.innerHTML = "GAME OVER...";
+			}
+		});
+	}
 });
 
 

@@ -28,7 +28,19 @@
 }
 
 
-#gameCanvas {
-	width: 400px;
+.left {
 	margin: auto;
+}
+
+.right {
+	margin: auto;
+}
+
+.right p {
+	color: white;
+	font-style: italic;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 40px;
 }
